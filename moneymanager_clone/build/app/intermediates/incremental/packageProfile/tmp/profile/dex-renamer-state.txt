@@ -1,0 +1,16 @@
+#Mon Nov 11 01:56:15 IST 2024
+base.0=C\:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\build\\app\\intermediates\\dex\\profile\\mergeExtDexProfile\\classes.dex
+base.1=C\:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\build\\app\\intermediates\\dex\\profile\\mergeLibDexProfile\\0\\classes.dex
+base.2=C\:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\0\\classes.dex
+base.3=C\:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\13\\classes.dex
+base.4=C\:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\1\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=13/classes.dex
+path.4=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex

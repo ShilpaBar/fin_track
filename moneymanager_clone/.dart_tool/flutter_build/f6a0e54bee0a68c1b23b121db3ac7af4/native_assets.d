@@ -1,0 +1,1 @@
+ C:\\Users\\shilp\\Downloads\\moneymanager_clone\\moneymanager_clone\\.dart_tool\\flutter_build\\f6a0e54bee0a68c1b23b121db3ac7af4\\native_assets.yaml: 

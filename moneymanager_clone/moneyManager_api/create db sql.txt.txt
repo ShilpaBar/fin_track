@@ -1,0 +1,35 @@
+Create User Table
+
+CREATE TABLE `users` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(255) NOT NULL UNIQUE,
+  `password` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Create token Table
+
+CREATE TABLE `tokens` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `token` VARCHAR(255) NOT NULL,
+  `user_id` INT(11) NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Create income_expens_table Table 
+
+CREATE TABLE `income_expens_table` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `category` VARCHAR(255) NOT NULL,
+  `date` DATE NOT NULL,
+  `time` TIME NOT NULL,
+  `amount` VARCHAR(255) NOT NULL,
+  `type` VARCHAR(255) NOT NULL,
+  `title` VARCHAR(255) NOT NULL,
+  `note` TEXT NOT NULL,
+  `user_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
